@@ -1,0 +1,84 @@
+#1)
+print("Informe um número:")
+x = int(input())
+
+print("O valor informado é {}".format(x))
+
+--------------------------------------------------------------------------------
+#2)
+print("Valor 1")
+a = int(input())
+print("Valor 2")
+b = int(input())
+
+a = a + b
+
+print("A soma é {}".format(a))
+
+--------------------------------------------------------------------------------
+#3)
+print("Informe N1: ")
+n1 = int(input())
+print("Informe N2: ")
+n2 = int(input())
+print("Informe N3: ")
+n3 = int(input())
+print("Informe N4: ")
+n4 = int(input())
+
+media = (n1+n2+n3+n4)/4
+
+print("A média das notas é {}.".format(media))
+
+--------------------------------------------------------------------------------
+#4)
+print("Tamanho em metros:")
+x = float(input())
+
+x = x*100
+
+print("A conversão do valor inserido é {} centímetros.".format(x))
+
+--------------------------------------------------------------------------------
+#5)
+print("Raio da círculo")
+raio = int(input())
+area = int
+
+area = 3.14*(raio**2)
+
+print("Área {}".format(area))
+
+--------------------------------------------------------------------------------
+#6)
+print("Informe o lado do quadrado")
+lado = int(input())
+area = int
+dobroA = int
+
+area = lado**2
+
+dobroA = area*2
+
+print("O dobro da área do quadrado é {}".format(dobroA))
+
+--------------------------------------------------------------------------------
+#7)
+print("Salário por hora:")
+sph = int(input())
+print("Horas trabalhadas ao mês:")
+hdt = int(input())
+
+salario = sph*hdt
+
+print("O salário final é {}".format(salario))
+
+--------------------------------------------------------------------------------
+#8)
+print("Informe a temperatura em Fahrenheit:")
+f = int(input())
+c = int
+
+c = (5*(f-32)/9)
+
+print("À temperatura informada, em graus Ceulsius é {} ºC".format(c))
